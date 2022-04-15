@@ -12,7 +12,7 @@ ua = UserAgent()
 headers = {"user-agent": ua.firefox}
 
 # request to site
-main_site = "https://www.gorodche.ru"
+main_site = "link on site"
 r = requests.get(main_site, headers=headers)
 news_list = {}
 
